@@ -112,20 +112,6 @@ Open in browser:
 
 http://127.0.0.1:8000/
 
-📸 Screenshots
-
-Create a folder /screenshots in the repository
-Add your PNG files there named:
-home.png, submit.png, view.png, update.png
-
-🏠 Home Page
-
-📝 Submit Feedback
-
-📄 View Feedback
-
-✏️ Edit / Update Feedback
-
 📞 Contact
 
 Developer: Mayur Satpute
