@@ -1,7 +1,7 @@
 📘 Student Feedback System (Django + MySQL CRUD Application)
 
-This solution empowers institutions with a streamlined mechanism to collect and manage student feedback using Django’s robust backend architecture and MySQL’s proven reliability.
-The project demonstrates an end-to-end CRUD pipeline and can be extended to enterprise-scale workflows.
+This solution empowers institutions with a streamlined mechanism to collect and manage student feedback using Django’s backend architecture and MySQL’s reliability.
+The project demonstrates a complete CRUD pipeline and can be extended to enterprise-scale workflows.
 
 ⭐ Key Features
 
@@ -9,13 +9,13 @@ CRUD workflow for feedback records
 
 Django ModelForms integration
 
-MySQL (XAMPP) database backend
+MySQL (XAMPP) backend
 
-Streamlined UX with clean, minimal UI
+Clean & minimal UI
 
-Modular and scalable project structure
+Scalable and modular structure
 
-Production-ready architecture fundamentals
+Beginner-friendly Django project
 
 🛠️ Tech Stack
 Layer	Technology
@@ -57,16 +57,16 @@ MySQL ✔
 
 2️⃣ Create Database
 
-Go to:
+Open:
 
 http://localhost/phpmyadmin
 
 
-Create a new database named:
+Create:
 
 feedbackdb
 
-3️⃣ Configure Django (settings.py)
+3️⃣ Configure Database in settings.py
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -85,32 +85,47 @@ Preferred:
 pip install mysqlclient
 
 
-If mysqlclient fails:
+If it fails:
 
 pip install pymysql
 
 
-Then add inside crudexam/__init__.py:
+Then add:
 
 import pymysql
 pymysql.install_as_MySQLdb()
 
 🚀 How to Launch
-
-Run migrations:
-
 python manage.py makemigrations
 python manage.py migrate
-
-
-Start server:
-
 python manage.py runserver
 
 
-Open in browser:
+Open:
 
 http://127.0.0.1:8000/
+
+📸 Screenshots
+
+Create a folder in your repo:
+/screenshots
+Add PNG images inside it with names:
+
+home.png
+
+submit.png
+
+view.png
+
+update.png
+
+🏠 Home Page
+
+📝 Submit Feedback
+
+📄 View Feedback
+
+✏️ Update Feedback
 
 📞 Contact
 
@@ -121,7 +136,7 @@ GitHub: https://github.com/Mayur-Satpute
 
 LinkedIn: https://www.linkedin.com/in/mayur7pute/
 
-🧾 License — MIT
+🧾 License – MIT
 MIT License
 
 Copyright (c)
@@ -129,9 +144,8 @@ Mayur Satpute
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files...
-(license text remains same)
 
 ✅ Conclusion
 
-This application reflects a strong baseline understanding of Django's MVC workflow, CRUD operations, and database orchestration with MySQL.
-The architecture is scalable, maintainable, and well-structured — ideal for academic evaluation, portfolio presentation, or future enterprise upgrades.
+This application showcases a solid beginner-level understanding of Django's MVC workflow, CRUD operations, and database orchestration with MySQL.
+Suitable for academic submission, portfolio use, and further upgrades.
