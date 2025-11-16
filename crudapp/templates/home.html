@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div style="text-align: center;">
+    <h1 style="color: #333;">Welcome to Student Feedback System</h1>
+
+    <p style="color: #555; font-size: 16px; margin-top: -5px;">
+        Your voice matters — submit your valuable feedback and help us improve.
+    </p>
+
+    <hr style="width: 60%;">
+
+    <div style="margin-top: 20px;">
+        <a href="{% url 'submit' %}" class="btn">Submit Feedback</a>
+        <a href="{% url 'view' %}" class="btn" style="margin-left: 10px;">View Feedback</a>
+    </div>
+</div>
+
+{% endblock %}
