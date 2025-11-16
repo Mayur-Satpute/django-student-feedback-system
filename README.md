@@ -1,30 +1,36 @@
-📘 Student Feedback System (Django + MySQL CRUD Application)
+# 📘 **Student Feedback System (Django + MySQL CRUD Application)**
 
 This solution empowers institutions with a streamlined mechanism to collect and manage student feedback using Django’s backend architecture and MySQL’s reliability.
 The project demonstrates a complete CRUD pipeline and can be extended to enterprise-scale workflows.
 
-⭐ Key Features
+---
 
-CRUD workflow for feedback records
+## ⭐ **Key Features**
 
-Django ModelForms integration
+* CRUD workflow for feedback records
+* Django ModelForms integration
+* MySQL (XAMPP) backend
+* Clean & minimal UI
+* Scalable and modular structure
+* Beginner-friendly Django project
 
-MySQL (XAMPP) backend
+---
 
-Clean & minimal UI
+## 🛠️ **Tech Stack**
 
-Scalable and modular structure
+| Layer     | Technology            |
+| --------- | --------------------- |
+| Backend   | Django 4 (Python 3)   |
+| Database  | MySQL (XAMPP)         |
+| Frontend  | HTML5, CSS            |
+| ORM Layer | Django ORM            |
+| Connector | mysqlclient / PyMySQL |
 
-Beginner-friendly Django project
+---
 
-🛠️ Tech Stack
-Layer	Technology
-Backend	Django 4 (Python 3)
-Database	MySQL (XAMPP)
-Frontend	HTML5, CSS
-ORM Layer	Django ORM
-Connector	mysqlclient / PyMySQL
-📂 Project Architecture
+## 📂 **Project Architecture**
+
+```
 crudexam/
 │
 ├── crudapp/
@@ -47,26 +53,36 @@ crudexam/
 │
 ├── manage.py
 └── README.md
+```
 
-🗄️ MySQL Configuration (XAMPP)
-1️⃣ Start Services
+---
 
-Apache ✔
+## 🗄️ **MySQL Configuration (XAMPP)**
 
-MySQL ✔
+### **1️⃣ Start Services**
 
-2️⃣ Create Database
+* Apache ✔
+* MySQL ✔
 
-Open:
+### **2️⃣ Create Database**
 
+Visit:
+
+```
 http://localhost/phpmyadmin
-
+```
 
 Create:
 
+```
 feedbackdb
+```
 
-3️⃣ Configure Database in settings.py
+---
+
+### **3️⃣ Configure Database in `settings.py`**
+
+```python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -77,66 +93,102 @@ DATABASES = {
         'PORT': '3306',
     }
 }
+```
 
-4️⃣ Install MySQL Connector
+---
+
+### **4️⃣ Install MySQL Connector**
 
 Preferred:
 
+```bash
 pip install mysqlclient
+```
 
+If mysqlclient fails:
 
-If it fails:
-
+```bash
 pip install pymysql
-
+```
 
 Then add:
 
+```python
 import pymysql
 pymysql.install_as_MySQLdb()
+```
 
-🚀 How to Launch
+---
+
+## 🚀 **How to Launch**
+
+```bash
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+```
 
+Open in browser:
 
-Open:
-
+```
 http://127.0.0.1:8000/
+```
 
-📸 Screenshots
+---
 
-Create a folder in your repo:
+## 📸 **Screenshots**
+
+Create a folder:
+
+```
 /screenshots
-Add PNG images inside it with names:
+```
 
-home.png
+Add images:
 
-submit.png
+* home.png
+* submit.png
+* view.png
+* update.png
 
-view.png
+---
 
-update.png
+### 🏠 **Home Page**
 
-🏠 Home Page
+![Home Screenshot](screenshots/home.png)
 
-📝 Submit Feedback
+---
 
-📄 View Feedback
+### 📝 **Submit Feedback**
 
-✏️ Update Feedback
+![Submit Screenshot](screenshots/submit.png)
 
-📞 Contact
+---
 
-Developer: Mayur Satpute
-Email: mayursatpute246@gmail.com
+### 📄 **View Feedback**
 
-GitHub: https://github.com/Mayur-Satpute
+![View Screenshot](screenshots/view.png)
 
-LinkedIn: https://www.linkedin.com/in/mayur7pute/
+---
 
-🧾 License – MIT
+### ✏️ **Update Feedback**
+
+![Update Screenshot](screenshots/update.png)
+
+---
+
+## 📞 **Contact**
+
+**Developer:** Mayur Satpute
+**Email:** [mayursatpute246@gmail.com](mailto:mayursatpute246@gmail.com)
+**GitHub:** [https://github.com/Mayur-Satpute](https://github.com/Mayur-Satpute)
+**LinkedIn:** [https://www.linkedin.com/in/mayur7pute/](https://www.linkedin.com/in/mayur7pute/)
+
+---
+
+## 🧾 **License – MIT**
+
+```
 MIT License
 
 Copyright (c)
@@ -144,8 +196,14 @@ Mayur Satpute
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files...
+```
 
-✅ Conclusion
+---
 
-This application showcases a solid beginner-level understanding of Django's MVC workflow, CRUD operations, and database orchestration with MySQL.
-Suitable for academic submission, portfolio use, and further upgrades.
+## ✅ **Conclusion**
+
+This application showcases a solid beginner-level understanding of Django’s MVC workflow, CRUD operations, and MySQL integration.
+Ideal for academic submission, portfolio building, and further development.
+
+---
+
