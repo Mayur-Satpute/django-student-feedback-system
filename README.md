@@ -180,8 +180,11 @@ Add images:
 ## 📞 **Contact**
 
 **Developer:** Mayur Satpute
+
 **Email:** [mayursatpute246@gmail.com](mailto:mayursatpute246@gmail.com)
+
 **GitHub:** [https://github.com/Mayur-Satpute](https://github.com/Mayur-Satpute)
+
 **LinkedIn:** [https://www.linkedin.com/in/mayur7pute/](https://www.linkedin.com/in/mayur7pute/)
 
 ---
